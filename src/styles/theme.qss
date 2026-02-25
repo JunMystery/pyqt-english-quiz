@@ -1,0 +1,188 @@
+/* Global Stylesheet for Quiz Application */
+/* Modern, Clean, Light Theme */
+
+QWidget {
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+    color: #333333;
+}
+
+QMainWindow, QStackedWidget, QDialog, QMessageBox {
+    background-color: #F5F7FA;
+    border: none;
+}
+
+QSpinBox, QTextEdit, QPlainTextEdit {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QLabel, QRadioButton, QCheckBox {
+    background-color: transparent;
+    color: #333333;
+}
+
+QLabel {
+    background-color: transparent;
+}
+
+QWidget#q_container, QWidget#content_widget {
+    background-color: #FFFFFF;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QWidget#grid_widget {
+    background-color: transparent;
+}
+
+/* Headings */
+QLabel#headerTitle {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+QLabel#subTitle {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #34495E;
+}
+
+/* Text Editors */
+QPlainTextEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E6ED;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 11pt;
+    line-height: 1.5;
+}
+QPlainTextEdit:focus {
+    border: 1px solid #4A90E2;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #357ABD;
+}
+QPushButton:pressed {
+    background-color: #2A6496;
+}
+QPushButton:disabled {
+    background-color: #A0C3E8;
+}
+
+/* Secondary Buttons */
+QPushButton.secondary {
+    background-color: #E2E8F0;
+    color: #4A5568;
+}
+QPushButton.secondary:hover {
+    background-color: #CBD5E0;
+}
+
+/* Radio Buttons */
+QRadioButton {
+    font-size: 12pt;
+    spacing: 12px;
+    padding: 8px 0px;
+}
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #CBD5E0;
+    background-color: #FFFFFF;
+}
+QRadioButton::indicator:checked {
+    border: 2px solid #4A90E2;
+    background-color: #4A90E2;
+    image: url(TICK_SVG);
+}
+QRadioButton::indicator:checked::after {
+    /* Need inner circle for checked state, achievable via image or custom paint in PyQt. */
+    /* QSS handles basic states, Python code will polish if needed */
+}
+QRadioButton:hover {
+    color: #4A90E2;
+}
+
+/* Sidebar Navigation Grid Buttons */
+QPushButton.nav_button {
+    background-color: #FFFFFF;
+    color: #4A5568;
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 35px;
+    max-height: 35px;
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 0px;
+}
+QPushButton.nav_button:hover {
+    background-color: #EDF2F7;
+    border: 1px solid #CBD5E0;
+}
+QPushButton.nav_button_current {
+    border: 2px solid #4A90E2;
+}
+QPushButton.nav_button_answered {
+    background-color: #48BB78;
+    color: #FFFFFF;
+    border: none;
+}
+QPushButton.nav_button_correct {
+    background-color: #48BB78;
+    color: white;
+}
+QPushButton.nav_button_incorrect {
+    background-color: #F56565;
+    color: white;
+}
+
+/* Frames and Containers */
+QFrame#card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    padding: 20px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background: #F5F7FA;
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: #CBD5E0;
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #A0AEC0;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}

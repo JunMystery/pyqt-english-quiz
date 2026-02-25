@@ -1,0 +1,614 @@
+{
+    "passages": [
+        {
+            "id": "passage_1",
+            "type": "reading_comprehension",
+            "content": "FOOD IN VIETNAM. Bún chả is a famous meat dish from Vietnam. It is grilled pork. You eat it with rice noodles, vegetables, and a sauce in a small bowl. People make this sauce with sugar, lemon juice, chili, and fish sauce. The dish is delicious. If you don't like pork, bún bò Nam Bộ is a popular Vietnamese beef dish. It is very easy to make. People make bún bò Nam Bộ with beef, noodles, and herbs. You eat it with peanuts on top. Bún chả and bún bò Nam Bộ are both delicious dishes. Vietnam has lots of other amazing dishes, too. Its food is becoming very popular all over the world.",
+            "media_url": null
+        },
+        {
+            "id": "passage_2",
+            "type": "reading_comprehension",
+            "content": "SUMMER FUN. Tyler Jacobs, February 10. I love going to different festivals. I went to a great festival in my town last week called SummerFun. They hold so many great things there. There were lots of stands selling traditional foods and drinks. I ate so much. They also had lots of shows. I watched the fashion show and the talent show. I didn't have time to watch the puppet show, and I think puppets are boring. My friend, Jane, and I did the tug of war. We lost but it was still fun. My favorite thing was the music performance at the end. It wasn't Jane's favorite, though. Hers was the talent show. I can't wait for next year's festival. I'm going to bring all my friends.",
+            "media_url": null
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "passage_id": null,
+            "group_instruction": "I. Choose the words whose underlined part is pronounced differently from that of the others in each group.",
+            "question": "Question 1:",
+            "options": {
+                "A": "pl<u>ea</u>se",
+                "B": "r<u>ea</u>d",
+                "C": "h<u>ea</u>d",
+                "D": "t<u>ea</u>cher"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Cách phát âm 'ea'. Phương án C phát âm là /e/, còn lại là /i:/."
+        },
+        {
+            "id": 2,
+            "passage_id": null,
+            "group_instruction": "I. Choose the words whose underlined part is pronounced differently from that of the others in each group.",
+            "question": "Question 2:",
+            "options": {
+                "A": "ear<u>s</u>",
+                "B": "eye<u>s</u>",
+                "C": "hand<u>s</u>",
+                "D": "cheek<u>s</u>"
+            },
+            "correct_answer": "D",
+            "explanation": "Kiến thức: Cách phát âm đuôi 's/es'. Phương án D phát âm là /s/, còn lại là /z/."
+        },
+        {
+            "id": 3,
+            "passage_id": null,
+            "group_instruction": "I. Choose the words whose underlined part is pronounced differently from that of the others in each group.",
+            "question": "Question 3:",
+            "options": {
+                "A": "f<u>u</u>nny",
+                "B": "c<u>u</u>rious",
+                "C": "ch<u>u</u>bby",
+                "D": "l<u>u</u>nch"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Cách phát âm 'u'. Phương án B phát âm là /jʊə/, còn lại là /ʌ/."
+        },
+        {
+            "id": 4,
+            "passage_id": null,
+            "group_instruction": "I. Choose the words whose underlined part is pronounced differently from that of the others in each group.",
+            "question": "Question 4:",
+            "options": {
+                "A": "conf<u>i</u>dent",
+                "B": "k<u>i</u>nd",
+                "C": "n<u>i</u>ce",
+                "D": "rel<u>i</u>able"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Cách phát âm 'i'. Phương án A phát âm là /ɪ/, còn lại là /aɪ/."
+        },
+        {
+            "id": 5,
+            "passage_id": null,
+            "group_instruction": "I. Choose the words whose underlined part is pronounced differently from that of the others in each group.",
+            "question": "Question 5:",
+            "options": {
+                "A": "sh<u>y</u>",
+                "B": "prett<u>y</u>",
+                "C": "curl<u>y</u>",
+                "D": "pon<u>y</u>"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Cách phát âm 'y'. Phương án A phát âm là /aɪ/, còn lại là /i/."
+        },
+        {
+            "id": 6,
+            "passage_id": null,
+            "group_instruction": "II. Find the word that differs from the other three in the position of primary stress.",
+            "question": "Question 6:",
+            "options": {
+                "A": "reliable",
+                "B": "helpful",
+                "C": "active",
+                "D": "friendly"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Trọng âm. Phương án A trọng âm rơi vào âm tiết 2, còn lại là âm tiết 1."
+        },
+        {
+            "id": 7,
+            "passage_id": null,
+            "group_instruction": "II. Find the word that differs from the other three in the position of primary stress.",
+            "question": "Question 7:",
+            "options": {
+                "A": "curious",
+                "B": "confident",
+                "C": "competitive",
+                "D": "talkative"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Trọng âm. Phương án C trọng âm rơi vào âm tiết 2, còn lại là âm tiết 1."
+        },
+        {
+            "id": 8,
+            "passage_id": null,
+            "group_instruction": "II. Find the word that differs from the other three in the position of primary stress.",
+            "question": "Question 8:",
+            "options": {
+                "A": "decide",
+                "B": "always",
+                "C": "lazy",
+                "D": "fishing"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Trọng âm. Phương án A trọng âm rơi vào âm tiết 2, còn lại là âm tiết 1."
+        },
+        {
+            "id": 9,
+            "passage_id": null,
+            "group_instruction": "II. Find the word that differs from the other three in the position of primary stress.",
+            "question": "Question 9:",
+            "options": {
+                "A": "barbecue",
+                "B": "vacation",
+                "C": "describe",
+                "D": "arrange"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Trọng âm. Phương án A trọng âm rơi vào âm tiết 1, còn lại là âm tiết 2."
+        },
+        {
+            "id": 10,
+            "passage_id": null,
+            "group_instruction": "II. Find the word that differs from the other three in the position of primary stress.",
+            "question": "Question 10:",
+            "options": {
+                "A": "sneakers",
+                "B": "hotel",
+                "C": "balcony",
+                "D": "selfish"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Trọng âm. Phương án B trọng âm rơi vào âm tiết 2, còn lại là âm tiết 1."
+        },
+        {
+            "id": 11,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 11: We _______ the herbs in the garden at present.",
+            "options": {
+                "A": "don't plant",
+                "B": "doesn't plant",
+                "C": "isn't planting",
+                "D": "aren't planting"
+            },
+            "correct_answer": "D",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Dấu hiệu 'at present'. Câu phủ định: S + am/is/are + not + V_ing."
+        },
+        {
+            "id": 12,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 12: She is _______ hard for her A levels.",
+            "options": {
+                "A": "having",
+                "B": "playing",
+                "C": "studying",
+                "D": "doing"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Từ vựng. study hard: học tập chăm chỉ."
+        },
+        {
+            "id": 13,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 13: Andrew has just started evening classes. He _______ German.",
+            "options": {
+                "A": "are learning",
+                "B": "is learning",
+                "C": "am learning",
+                "D": "learning"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Diễn tả hành động đang xảy ra xung quanh thời điểm nói."
+        },
+        {
+            "id": 14,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 14: Tet is the biggest and most important _______ in Vietnam.",
+            "options": {
+                "A": "festival",
+                "B": "decoration",
+                "C": "occasion",
+                "D": "tradition"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Từ vựng. festival (n): lễ hội."
+        },
+        {
+            "id": 15,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 15: I always _______ my grandparents a long life and good health.",
+            "options": {
+                "A": "celebrate",
+                "B": "wish",
+                "C": "make",
+                "D": "bring"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Từ vựng. wish somebody something: chúc ai đó điều gì."
+        },
+        {
+            "id": 16,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 16: \"_______ do Vietnamese people prepare for Tet?\" \"They decorate their houses and cook special food.\"",
+            "options": {
+                "A": "What",
+                "B": "Where",
+                "C": "How",
+                "D": "How often"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Từ để hỏi. How (hỏi về cách thức): Như thế nào."
+        },
+        {
+            "id": 17,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 17: Our class is going to _______ a picnic at the zoo on Saturday.",
+            "options": {
+                "A": "have",
+                "B": "take",
+                "C": "pass",
+                "D": "go"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Cụm từ. have a picnic: đi dã ngoại."
+        },
+        {
+            "id": 18,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 18: She _______ to prepare for the exam now.",
+            "options": {
+                "A": "study",
+                "B": "studies",
+                "C": "studying",
+                "D": "is studying"
+            },
+            "correct_answer": "D",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Dấu hiệu 'now'. S + am/is/are + V_ing."
+        },
+        {
+            "id": 19,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 19: Your father _______ your motorbike at the moment.",
+            "options": {
+                "A": "is repairing",
+                "B": "are repairing",
+                "C": "don't repair",
+                "D": "doesn't repair"
+            },
+            "correct_answer": "A",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Dấu hiệu 'at the moment'."
+        },
+        {
+            "id": 20,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 20: Some people often decorate their houses with red flowers because they believe that this colour will bring _______ to them during the year.",
+            "options": {
+                "A": "poverty",
+                "B": "rich",
+                "C": "luck",
+                "D": "gold"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Từ vựng. luck (n): sự may mắn."
+        },
+        {
+            "id": 21,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 21: I finished packing for our picnics. All my things are in my _______.",
+            "options": {
+                "A": "Walking boots",
+                "B": "sleeping bag",
+                "C": "backpack",
+                "D": "pencil case"
+            },
+            "correct_answer": "C",
+            "explanation": "Kiến thức: Từ vựng. backpack (n): ba lô."
+        },
+        {
+            "id": 22,
+            "passage_id": null,
+            "group_instruction": "III. Choose the word/ phrase (A, B, C or D) that best suits the blank in each sentence.",
+            "question": "Question 22: The _______ took place in a crowded atmosphere in a southern Australian city.",
+            "options": {
+                "A": "party",
+                "B": "parade",
+                "C": "colorful",
+                "D": "demo"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Từ vựng. parade (n): cuộc diễu hành."
+        },
+        {
+            "id": 23,
+            "passage_id": null,
+            "group_instruction": "IV. There is a mistake in each sentence. Find and correct it.",
+            "question": "Question 23: Are you <u>do</u> homework right now?",
+            "options": {
+                "A": "Are",
+                "B": "do",
+                "C": "homework",
+                "D": "right now"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Sửa: do -> <b>doing</b>."
+        },
+        {
+            "id": 24,
+            "passage_id": null,
+            "group_instruction": "IV. There is a mistake in each sentence. Find and correct it.",
+            "question": "Question 24: The children <u>play</u> football in the back yard at the moment.",
+            "options": {
+                "A": "children",
+                "B": "play",
+                "C": "football",
+                "D": "at the moment"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Sửa: play -> <b>are playing</b>."
+        },
+        {
+            "id": 25,
+            "passage_id": null,
+            "group_instruction": "IV. There is a mistake in each sentence. Find and correct it.",
+            "question": "Question 25: What <u>does</u> your elder sister doing?",
+            "options": {
+                "A": "What",
+                "B": "does",
+                "C": "elder sister",
+                "D": "doing"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Sửa: does -> <b>is</b>."
+        },
+        {
+            "id": 26,
+            "passage_id": null,
+            "group_instruction": "IV. There is a mistake in each sentence. Find and correct it.",
+            "question": "Question 26: Look! Those people are <u>fight</u> with each other.",
+            "options": {
+                "A": "Look",
+                "B": "those people",
+                "C": "are",
+                "D": "fight"
+            },
+            "correct_answer": "D",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Sửa: fight -> <b>fighting</b>."
+        },
+        {
+            "id": 27,
+            "passage_id": null,
+            "group_instruction": "IV. There is a mistake in each sentence. Find and correct it.",
+            "question": "Question 27: Noah is <u>tries</u> very hard for the upcoming exam.",
+            "options": {
+                "A": "is",
+                "B": "tries",
+                "C": "very hard",
+                "D": "upcoming exam"
+            },
+            "correct_answer": "B",
+            "explanation": "Kiến thức: Thì hiện tại tiếp diễn. Sửa: tries -> <b>trying</b>."
+        },
+        {
+            "id": 28,
+            "passage_id": "passage_1",
+            "group_instruction": "V. Read the article and answer the questions.",
+            "question": "Question 28: What meat is in bún chả?",
+            "options": null,
+            "correct_answer": "The meat is grilled pork.",
+            "explanation": "Thông tin bài đọc: 'Bún chả is a famous meat dish... It is grilled pork.'"
+        },
+        {
+            "id": 29,
+            "passage_id": "passage_1",
+            "group_instruction": "V. Read the article and answer the questions.",
+            "question": "Question 29: What do you eat bún chả with?",
+            "options": null,
+            "correct_answer": "You eat it with rice noodles, vegetables, and a sauce.",
+            "explanation": "Thông tin bài đọc: 'You eat it with rice noodles, vegetables, and a sauce in a small bowl.'"
+        },
+        {
+            "id": 30,
+            "passage_id": "passage_1",
+            "group_instruction": "V. Read the article and answer the questions.",
+            "question": "Question 30: What do they make the sauce in bún chả with?",
+            "options": null,
+            "correct_answer": "People make this sauce with sugar, lemon juice, chili, and fish sauce.",
+            "explanation": "Thông tin bài đọc tại câu số 30 giải thích chi tiết thành phần nước chấm."
+        },
+        {
+            "id": 31,
+            "passage_id": "passage_1",
+            "group_instruction": "V. Read the article and answer the questions.",
+            "question": "Question 31: What do people make bún bò Nam Bộ with?",
+            "options": null,
+            "correct_answer": "People make bún bò Nam Bộ with beef, noodles, and herbs.",
+            "explanation": "Thông tin bài đọc: 'People make bún bò Nam Bộ with beef, noodles, and herbs.'"
+        },
+        {
+            "id": 32,
+            "passage_id": "passage_1",
+            "group_instruction": "V. Read the article and answer the questions.",
+            "question": "Question 32: What do you put on top of bún bò Nam Bộ?",
+            "options": null,
+            "correct_answer": "You put peanuts on top.",
+            "explanation": "Thông tin bài đọc: 'You eat it with peanuts on top.'"
+        },
+        {
+            "id": 33,
+            "passage_id": "passage_2",
+            "group_instruction": "VI. Read the article and choose the A, B, C for each question.",
+            "question": "Question 33: Where was the festival?",
+            "options": {
+                "A": "Sumer Town",
+                "B": "Tyler's town",
+                "C": "a local park"
+            },
+            "correct_answer": "B",
+            "explanation": "Thông tin bài đọc: 'I went to a great festival in <b>my town</b> last week...'"
+        },
+        {
+            "id": 34,
+            "passage_id": "passage_2",
+            "group_instruction": "VI. Read the article and choose the A, B, C for each question.",
+            "question": "Question 34: What did they not have at the festival?",
+            "options": {
+                "A": "food stands",
+                "B": "flower show",
+                "C": "a puppet show"
+            },
+            "correct_answer": "B",
+            "explanation": "Trong bài chỉ nhắc đến food stands và puppet show, không nhắc đến flower show."
+        },
+        {
+            "id": 35,
+            "passage_id": "passage_2",
+            "group_instruction": "VI. Read the article and choose the A, B, C for each question.",
+            "question": "Question 35: What did Tyler not watch?",
+            "options": {
+                "A": "a fashion show",
+                "B": "a talent show",
+                "C": "a puppet show"
+            },
+            "correct_answer": "C",
+            "explanation": "Thông tin: 'I didn't have time to watch the puppet show'."
+        },
+        {
+            "id": 36,
+            "passage_id": "passage_2",
+            "group_instruction": "VI. Read the article and choose the A, B, C for each question.",
+            "question": "Question 36: What was Tyler's favorite thing?",
+            "options": {
+                "A": "the music performance",
+                "B": "the talent show",
+                "C": "the tug of war"
+            },
+            "correct_answer": "A",
+            "explanation": "Thông tin: 'My favorite thing was the music performance at the end.'"
+        },
+        {
+            "id": 37,
+            "passage_id": "passage_2",
+            "group_instruction": "VI. Read the article and choose the A, B, C for each question.",
+            "question": "Question 37: What was Jane's favorite thing?",
+            "options": {
+                "A": "the fashion show",
+                "B": "the talent show",
+                "C": "the music performance"
+            },
+            "correct_answer": "B",
+            "explanation": "Thông tin: 'Hers (Jane's) was the talent show.'"
+        },
+        {
+            "id": 38,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 38: hopscotch/with/rarely/I/play/my friends/at school.",
+            "options": null,
+            "correct_answer": "I rarely play hopscotch with my friends at school.",
+            "explanation": "Kiến thức: Trật tự từ trong câu thì hiện tại đơn với trạng từ tần suất."
+        },
+        {
+            "id": 39,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 39: on the weekends./play badminton/with my dad/I/often",
+            "options": null,
+            "correct_answer": "I often play badminton with my dad on the weekends.",
+            "explanation": "Sắp xếp theo cấu trúc: S + Adv + V + O + Adv of time."
+        },
+        {
+            "id": 40,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 40: buy/at the bookstore./new books/My parents/ usually",
+            "options": null,
+            "correct_answer": "My parents usually buy new books at the bookstore.",
+            "explanation": "Cấu trúc hiện tại đơn diễn tả thói quen."
+        },
+        {
+            "id": 41,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 41: never/after school./does/My sister/martial arts",
+            "options": null,
+            "correct_answer": "My sister never does martial arts after school.",
+            "explanation": "Lưu ý động từ 'does' đi với chủ ngữ số ít 'My sister'."
+        },
+        {
+            "id": 42,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 42: to read books/We/the library/and study./often/go to",
+            "options": null,
+            "correct_answer": "We often go to the library to read books and study.",
+            "explanation": "Cụm từ 'go to the library to...': đi đến thư viện để làm gì."
+        },
+        {
+            "id": 43,
+            "passage_id": null,
+            "group_instruction": "VII. Unscramble the sentences.",
+            "question": "Question 43: always/goes to/My mom/the supermarket/after work.",
+            "options": null,
+            "correct_answer": "My mom always goes to the supermarket after work.",
+            "explanation": "Sắp xếp trạng từ chỉ tần suất đứng trước động từ thường."
+        },
+        {
+            "id": 44,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 44: We/ decorate/ houses/Halloween.",
+            "options": null,
+            "correct_answer": "We decorate our houses for Halloween.",
+            "explanation": "Sử dụng giới từ 'for' chỉ mục đích/dịp lễ."
+        },
+        {
+            "id": 45,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 45: John/ sometimes/ play video games/ his friends/ after school.",
+            "options": null,
+            "correct_answer": "John sometimes plays video games with his friends after school.",
+            "explanation": "Lưu ý chia động từ 'plays' cho chủ ngữ John."
+        },
+        {
+            "id": 46,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 46: fashion show/ start/8 p.m.",
+            "options": null,
+            "correct_answer": "The fashion show starts at 8 p.m.",
+            "explanation": "Thêm mạo từ 'The' và chia động từ 'starts' theo lịch trình."
+        },
+        {
+            "id": 47,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 47: How/people/prepare/ Christmas?",
+            "options": null,
+            "correct_answer": "How do people prepare for Christmas?",
+            "explanation": "Cấu trúc câu hỏi: How + do + S + V + for + festival?"
+        },
+        {
+            "id": 48,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 48: How/ often/you/ go shopping?",
+            "options": null,
+            "correct_answer": "How often do you go shopping?",
+            "explanation": "Câu hỏi về tần suất: How often + do/does + S + V?"
+        },
+        {
+            "id": 49,
+            "passage_id": null,
+            "group_instruction": "VIII. Write sentences using the words below.",
+            "question": "Question 49: bus/leave/10 a.m.",
+            "options": null,
+            "correct_answer": "The bus leaves at 10 a.m.",
+            "explanation": "Sử dụng thì hiện tại đơn cho lịch trình tàu xe cố định."
+        }
+    ]
+}
